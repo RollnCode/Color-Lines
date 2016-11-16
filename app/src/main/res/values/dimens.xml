@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cell_size">20dp</dimen>
+    <dimen name="cell_padding">8dp</dimen>
+
+    <dimen name="next_size">24dp</dimen>
+    <dimen name="next_padding">2dp</dimen>
+
+    <dimen name="key_line_1_d2">8dp</dimen>
+    <dimen name="key_line_1">16dp</dimen>
+    <dimen name="menu_icon_size">100dp</dimen>
+
+    <dimen name="text_big">18sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_huge">50sp</dimen>
+</resources>

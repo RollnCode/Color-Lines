@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="play">Грати</string>
+    <string name="records">Рекорди</string>
+    <string name="exit">Вихід</string>
+    <string name="game_over">Кінець гри!</string>
+    <string name="your_score">Ваш рахунок:</string>
+    <string name="undo">Відміна</string>
+    <string name="choose">Вибрати</string>
+    <string name="replay">Грати ще</string>
+    <string name="are_you_leaving">Вже йдете?</string>
+    <string name="stay">Залишитися</string>
+    <string name="continue_game">Продовжити</string>
+    <string name="cancel">Скасувати</string>
+    <string name="unfinished_game">Здається, Ви не закінчили гру</string>
+
+    <string name="format_field_size_s">Розмір поля:% s</string>
+    <string name="format_your_score_is_d">Ваш рахунок:% d</string>
+
+    <string name="content_next_ball">Наступна куля</string>
+    <string name="content_logo">Логотип</string>
+    <string name="content_icon">Зображення</string>
+    <string name="content_dialog_image">Зображення діалогу</string>
+
+    <string name="error_connection_google_play">Неможливо підключитися до Google Play</string>
+    <string name="information">Створив Максим Амброскін @ Roll\'n\'Code, 2016</string>
+</resources>

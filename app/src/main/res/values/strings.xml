@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name" translatable="false">Color Lines</string>
+    <string name="play">Play</string>
+    <string name="records">Records</string>
+    <string name="exit">Exit</string>
+    <string name="color" translatable="false">Color</string>
+    <string name="lines" translatable="false">Lines</string>
+    <string name="game_over">Game Over!</string>
+    <string name="your_score">Your score:</string>
+    <string name="undo">Undo</string>
+    <string name="choose">Choose</string>
+    <string name="replay">Replay</string>
+    <string name="are_you_leaving">Are you leaving so soon?</string>
+    <string name="stay">Stay</string>
+    <string name="continue_game">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="unfinished_game">Seems you have unfinished game</string>
+
+    <string name="format_field_size_s">Field size: %s</string>
+    <string name="format_your_score_is_d">Your score is %d</string>
+
+    <string name="content_next_ball">Next ball</string>
+    <string name="content_logo">logo</string>
+    <string name="content_icon">icon</string>
+    <string name="content_dialog_image">Dialog image</string>
+
+    <string name="error_connection_google_play">Can\'t connect to the Google Play</string>
+    <string name="information">Created by Maxim Ambroskin @ Roll\'n\'Code, 2016</string>
+
+    <array name="field_size">
+        <item>5x5</item>
+        <item>7x7</item>
+        <item>9x9</item>
+    </array>
+</resources>

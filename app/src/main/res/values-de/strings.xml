@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="play">Spielen</string>
+    <string name="records">Rekord</string>
+    <string name="exit">Ausgang</string>
+    <string name="game_over">Spiel ist aus!</string>
+    <string name="your_score">Ergebnis:</string>
+    <string name="undo">Zurück</string>
+    <string name="choose">Wählen</string>
+    <string name="replay">Wiederholen</string>
+    <string name="are_you_leaving">Gehst du so schnell aus?</string>
+    <string name="stay">Bleiben</string>
+    <string name="continue_game">Weiterspielen</string>
+    <string name="cancel">Widerruf</string>
+    <string name="unfinished_game">Es scheint, dass Spiel nicht beendet ist</string>
+
+    <string name="format_field_size_s">Feldgröße: %s</string>
+    <string name="format_your_score_is_d">Ihr Ergebnis: %d</string>
+
+    <string name="content_next_ball">Der nächste Kugel</string>
+    <string name="content_logo">Logo</string>
+    <string name="content_icon">Bild</string>
+    <string name="content_dialog_image">Dialogbild</string>
+
+    <string name="error_connection_google_play">Keine Verbindung zum Google Play</string>
+    <string name="information">Erstellt von Maxim Ambroskin @ Roll\'n\'Code, 2016</string>
+</resources>

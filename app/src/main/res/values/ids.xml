@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="code_game_over" type="id"/>
+    <item name="code_unfinished_game" type="id"/>
+    <item name="code_exit_game" type="id"/>
+</resources>

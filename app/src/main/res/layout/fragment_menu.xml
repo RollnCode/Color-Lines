@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/rl_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@drawable/sel_green"
+        android:clickable="true"
+        app:layout_heightPercent="40%"
+        app:layout_widthPercent="50%">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/color"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_huge"/>
+
+        <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:padding="@dimen/key_line_1_d2"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_large"
+            tools:text="9x9"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_toEndOf="@id/rl_btn1"
+        android:layout_toRightOf="@id/rl_btn1"
+        android:background="@drawable/sel_teal"
+        app:layout_heightPercent="40%"
+        app:layout_widthPercent="50%">
+
+        <ImageView
+            android:layout_width="@dimen/menu_icon_size"
+            android:layout_height="@dimen/menu_icon_size"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/content_icon"
+            app:srcCompat="@drawable/vec_brain"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:padding="@dimen/key_line_1_d2"
+            android:text="@string/play"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_large"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rl_btn1"
+        android:layout_margin="1dp"
+        android:background="@drawable/sel_blue"
+        app:layout_heightPercent="40%"
+        app:layout_widthPercent="50%">
+
+        <ImageView
+            android:layout_width="@dimen/menu_icon_size"
+            android:layout_height="@dimen/menu_icon_size"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/content_logo"
+            app:srcCompat="@drawable/vec_trophy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:padding="@dimen/key_line_1_d2"
+            android:text="@string/records"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_large"/>
+
+        <TextView
+            android:id="@+id/tv_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/sel_blue"
+            android:gravity="center"
+            android:padding="@dimen/key_line_1"
+            android:text="@string/error_connection_google_play"
+            android:textSize="@dimen/text_big"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_btn1"
+        android:layout_margin="1dp"
+        android:layout_toEndOf="@id/rl_btn3"
+        android:layout_toRightOf="@id/rl_btn3"
+        android:background="@drawable/sel_pink"
+        android:clickable="true"
+        app:layout_heightPercent="40%"
+        app:layout_widthPercent="50%">
+
+        <TextView
+            android:id="@+id/tv_lines"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/lines"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_huge"/>
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/sel_pink"
+            android:gravity="center"
+            android:padding="@dimen/key_line_1"
+            android:text="@string/information"
+            android:textSize="@dimen/text_big"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</android.support.percent.PercentRelativeLayout>

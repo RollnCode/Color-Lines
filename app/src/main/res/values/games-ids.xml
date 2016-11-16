@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id" translatable="false">989541439536</string>
+    <string name="leaderboard_5x5" translatable="false">CgkIsLCQquYcEAIQAA</string>
+    <string name="leaderboard_7x7" translatable="false">CgkIsLCQquYcEAIQAQ</string>
+    <string name="leaderboard_9x9" translatable="false">CgkIsLCQquYcEAIQAg</string>
+</resources>

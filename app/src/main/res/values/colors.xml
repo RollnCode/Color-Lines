@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#393939</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">@color/pink</color>
+    <color name="white">#ffffff</color>
+    <color name="disabled">#b1b1b1</color>
+    <color name="gray">#474747</color>
+    <color name="selected">#545454</color>
+    <!-- Balls -->
+    <color name="orange">#FE7348</color>
+    <color name="yellow">#FFED5B</color>
+    <color name="teal">#67C2BB</color>
+    <color name="green">#A0CF69</color>
+    <color name="purple">#abb9fc</color>
+    <color name="pink">#F279A4</color>
+    <color name="blue">#48A8F2</color>
+
+    <color name="teal_pressed">#5caea7</color>
+    <color name="green_pressed">#93be60</color>
+    <color name="blue_pressed">#429ade</color>
+    <color name="pink_pressed">#de6e96</color>
+
+    <color name="teal_darker">#529c96</color>
+
+</resources>
